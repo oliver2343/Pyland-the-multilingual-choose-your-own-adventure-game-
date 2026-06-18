@@ -1,0 +1,246 @@
+def frFindOthers():
+    print("")
+
+def frExploreCity():
+    print("")
+
+def frLettuseburgur():
+    print("")
+
+def frLittleMac():
+    print("")
+
+def frExplore():
+    print("")
+
+def frShelter():
+    print("")
+
+def frMcDonalds():
+    print("Vous décidez de manger au McDonalds puisque vous y travaillez. Vous regardez le menu et vous êtes confus. Le menu est 1: dans une langue différente. 2: il a l'air... SAIN!?!?!?!")
+    print("Que commandez-vous? Tapez a pour un Lettuseburgur, Tapez B pour un Little Mac.")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frLettuseburgur()
+    elif choice == "b" or choice == "B":
+        frLittleMac()
+
+def frBurgerKing():
+    print("Vous décidez de manger au Burger King à la place. Vous regardez le menu et vous voyez qu'il est dans une langue inconnue et il a l'air délicieux. Vous commandez un %)Q(#%()) et du #$@(%^# et vous mangez votre repas. C'était délicieux et vous êtes maintenant plein. Que faites-vous ensuite? Tapez a pour explorer, Tapez b pour trouver d'autres personnes qui ont été aspirés dans le portail avec vous.")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frExploreCity()
+    elif choice == "b" or choice == "B":
+        frFindOthers()
+
+def frRUN():
+    print("Vous sprintez, avec quelques autres personnes qui ont également été aspirés dans le portail, loin du T-rex. Vous courez aussi vite que vous pouvez mais le T-rex vous rattrape. Vous regardez en arrière et voyez que le T-rex est juste derrière vous. Vous essayez de courir plus vite mais vous trébuchez et tombez. Le T-rex vous rattrape et tente de vous mordre. Vous roulez et esquivez et un ami vous ramasse et court. Le T-Rex piétine et rugit alors que vous fuyez dans un buisson. Vous êtes en sécurité. Que faites-vous?")
+    print("Tapez a pour explorer, Tapez b pour construire un abri")
+    choice = input("Entrez votre choix:")
+    if choice == "a" or choice == "A":
+        frExplore()
+    elif choice == "b" or choice == "B":
+        frShelter()
+
+def frHIDE():
+    print("Vous trouvez un endroit pour vous cacher. Un buisson se trouve devant vous. Rapidement, vous sautez dans le buisson et espérez que le T-rex ne vous voit pas. Le T-rex passe et vous pouvez l'entendre renifler autour. Vous retenez votre souffle et espérez qu'il ne vous trouve pas. Après ce qui semble être une éternité, le T-rex vous trouve et commence à vous attaquer. Vous essayez de riposter mais le T-rex est trop fort. Il vous mord et vous ressentez une douleur aiguë dans votre jambe. Vous essayez de courir mais vous êtes trop lent et le T-rex vous rattrape et vous mord à nouveau. Vous ressentez une autre douleur aiguë dans votre bras et vous savez que vous allez mourir. Le T-rex continue à vous attaquer jusqu'à ce que vous mouriez finalement.")
+    print("GAME OVER VOUS AVEZ EU LA FIN MANGÉE. JOUER À NOUVEAU POUR OBTENIR UNE FIN DIFFÉRENTE? TAPEZ Y OU N")
+    choice = input("Entrez votre choix: ")
+    if choice == "y" or choice == "Y":
+        frStart()
+    elif choice == "n" or choice == "N":
+        print("Merci d'avoir joué! Au revoir!")
+
+def frDimensionTravel():
+    print("Vous êtes excité de faire cela surtout pour une si grande récompense! Le scientifique fou vous tend l'appareil et vous dit de tirer la gâchette. Vous tirez la gâchette et le scientifique fou commence à rire hystériquement alors qu'un portail apparaît et aspire tout. Vous ressentez une sensation étrange et vous voyez une lumière brillante. Lorsque la lumière s'estompe, vous vous retrouvez dans un monde différent. Vous regardez autour de vous et vous voyez que vous êtes dans une sorte de ville futuriste. Vous voyez des voitures volantes et des robots qui marchent autour de vous. Vous êtes émerveillé par ce nouveau monde et vous commencez à l'explorer.")
+    print("Alors que vous explorez la ville, votre estomac commence à gargouiller. Vous réalisez que vous avez faim et vous commencez à chercher un endroit pour manger. Vous voyez une place pleine de différents restaurants. Voici vos 2 meilleurs choix: tapez a pour McDonalds, tapez b pour Burger King")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frMcDonalds()
+    elif choice == "b" or choice == "B":
+        frBurgerKing()
+
+def frDissapointing():
+    print("'Aww come on. Je parie que vous pensez que je suis fou ou sous l'influence de drogue. Je ne le suis pas, je vous jure! En fait, laissez-moi vous montrer!' Le scientifique fou tire son appareil et un portail apparaît. Aspirant tout le monde à l'intérieur. Vous essayez de vous accrocher mais vous ne pouvez pas saisir quoi que ce soit! La table en marbre est juste trop glissante!")
+    print("Alors que le scientifique fou commence à être aspiré, il a l'air effrayé et crie 'MERDE CE N'ÉTAIT PAS CENSÉ ARRIVER!")
+    print("Vous êtes aspiré dans le portail et vous atterrissez dans une sorte de jungle. Il semble que vous avez atterri à l'époque des Jurrassic. Vous entendez un rugissement fort et oh merde. C'est un Tyranasouras rex! Que faites-vous? Tapez a pour COURIR. Tapez B pour SE CACHER")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frRUN()
+    elif choice == "b" or choice == "B":
+        frHIDE()
+
+def frResponsibleEmployee():
+    print("'Je suis désolé, mais je ne peux pas vous donner de la nourriture gratuite et si vous continuez à être impolie, je devrai vous demander de quitter le magasin' Vous dites d'une voix ferme.")
+    print("La femme est très en colère et crie pour le manager. Le manager sort et demande quel est le problème. Vous expliquez la situation au manager et le manager lui demande de partir poliment. La femme s'en va avec son enfant et vous recevez une notification sur votre téléphone qu'elle a laissé un avis 1 étoile sur la page McDonalds. Vous ignorez cela et continuez avec le prochain client.")
+    print("Le prochain client est un homme avec des cheveux fous et des lunettes spirales. Il porte une blouse blanche de laboratoire et semble tenir un appareil étrange dans sa main. Il s'approche du comptoir et dit en respirant lourdement:")
+    print("'J'ai enfin réussi! J'ai créé un appareil qui permet les voyages interdimmensionnels! J'ai besoin que vous le testiez et si vous réussissez, je vous récompenserai avec un pourboire de 1000 $!'")
+    print("Acceptez-vous cette offre? tapez a pour HELL YEAHHH! Tapez b pour HELLL NOO!")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frDimensionTravel()
+    elif choice == "b" or choice == "B":
+        frDissapointing()
+
+def frKindEmployee():
+    print("'Oui madame, je vais vous préparer un repas et votre fils peut manger gratuitement' Vous dites avec un sourire sur votre visage.")
+    print("La femme sourit et vous remercie pour votre gentillesse. Elle commande son repas et votre ami sur la cuisinière le prépare pour elle. Elle et son fils mangent leur repas et partent.")
+    print("Bientôt, le patron arrive avec un visage rouge et vous dit que vous allez recevoir un avertissement pour avoir donné de la nourriture gratuite. Vous essayez d'expliquer la situation mais le patron ne s'en soucie pas et vous donne un avertissement. Vous êtes très en colère et vous êtes maintenant déterminé à faire mieux la prochaine fois.")
+    print("Le prochain client est un homme avec des cheveux fous et des lunettes spirales. Il porte une blouse blanche de laboratoire et semble tenir un appareil étrange dans sa main. Il s'approche du comptoir et dit en respirant lourdement:")
+    print("'J'ai enfin réussi! J'ai créé un appareil qui permet les voyages interdimmensionnels! J'ai besoin que vous le testiez et si vous réussissez, je vous récompenserai avec un pourboire de 1000 $!'")
+    print("Acceptez-vous cette offre? tapez a pour HELL YEAHHH! Tapez b pour HELLL NOO!")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frDimensionTravel()
+    elif choice == "b" or choice == "B":
+        frDissapointing()
+
+def frStart():
+    print("Bienvenue à Pyland! Quel est votre nom?")
+    name = input("Entrez votre nom: ")
+    print(f"Bonjour, {name}! Commençons notre aventure à Pyland!")
+    print("Vous êtes une personne moyenne vivant dans une petite ville dans la partie nord de Chicago. Vous avez un travail dans un McDonalds local.")
+    print("Ce matin est assez habituel pour vous. Vous vous réveillez, prenez votre petit déjeuner, prenez une tasse de café et conduisez jusqu'au travail. Lorsque vous arrivez, vous êtes accueilli par vos collègues de travail et allez au comptoir pour prendre les commandes des clients.")
+    print("Votre premier client de la journée est une femme qui est très impolie avec vous Elle vous crie dessus et exige que vous lui prépariez un repas et elle exige que son fils Timmy mange gratuitement. Comment répondez-vous? Tapez a pour 'Je suis désolé, mais je ne peux pas vous donner de la nourriture gratuite et si vous continuez à être impolie, je devrai vous demander de quitter le magasin' ou tapez b pour 'Oui madame, je vais vous préparer un repas et votre fils peut manger gratuitement'") 
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frResponsibleEmployee()
+    elif choice == "b" or choice == "B":
+        frKindEmployee()
+
+def engFightTrex():
+    print("")
+
+def engTrapTime():
+    print("")
+
+def engExploreCity():
+    print("")
+
+def engFindOthers():
+    print("")
+
+def engLettuseburgur():
+    print("")
+
+def engLittleMac():
+    print("")
+
+def engExplore():
+    print("")
+
+def engWeapons(): # Translate to french
+    print("You and your friends gather some stone and craft some spears and bows. You make some armor out of wood and prep for the ultimate fight with the dinosaur. You want to fight the T-rex but you also want to set up traps and capture the T-rex for an advantage. What do you do?")
+    print("Type a to find the T rex and kill it immediately, type b to set up traps and wait for the T-rex")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engFightTrex()
+    elif choice == "b" or choice == "B":
+        engTrapTime()
+
+def engShelter(): # Translate to french
+    print("You and some friends search the jungle for materials to build a shelter. You find some wood and some leaves and you build a small shelter to protect yourself from the elements. You are now safe from the rain and the sun but you are still in danger from the T-rex. What do you do next? Type a to explore, Type b to build some weapons")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engExplore()
+    elif choice == "b" or choice == "B":
+        engWeapons()
+
+def engMcDonalds():
+    print("You decide to eat McDonalds since you work there. You look at the menu and you are confused. The menu is 1: in a different language. 2: it actually looks... HEALTHY!?!?!?!")
+    print("What shall you order? Type a for a Lettuseburgur, Type B for a Little Mac.")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engLettuseburgur()
+    elif choice == "b" or choice == "B":
+        engLittleMac()
+
+def engBurgerKing():
+    print("You decide to eat at Burger King instead. You look at the menu and you see that it is in a unknown language and it looks delicious. You order a %)Q(#%()) and some #$@(%^# and you eat your meal. It was delicious and you are now full. What do you do next? Type a to explore, Type b to find some others that were sucked into the portal with you.")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engExploreCity()
+    elif choice == "b" or choice == "B":
+        engFindOthers()
+
+def engRUN():
+    print("You sprint, along with a few other people who were also sucked into the portal, away from the T-rex. You are running as fast as you can but the T-rex is gaining on you. You look back and see that the T-rex is right behind you. You try to run faster but you trip and fall. The T-rex catches up to you and attempts to bite you. You roll over and doge and a friend picks you up and runs. The T-Rex stomps and roars as you flee into a bush. You are safe. What do you do?")
+    print("Type a to explore, Type b to build a shelter")
+    choice = input("Input your choice:")
+    if choice == "a" or choice == "A":
+        engExplore()
+    elif choice == "b" or choice == "B":
+        engShelter()
+
+def engHIDE():
+    print("You find a spot to hide. A bush lies in front of you. Quickly, you jump into the bush and hope that the T-rex doesn't see you. The T-rex walks by and you can hear it sniffing around. You hold your breath and hope that it doesn't find you. After what feels like an eternity, the T-rex finds you and starts to attack you. You try to fight back but the T-rex is too strong. It bites you and you feel a sharp pain in your leg. You try to run but you are too slow and the T-rex catches up to you and bites you again. You feel another sharp pain in your arm and you know that you are going to die. The T-rex continues to attack you until you eventually die.")
+    print("GAME OVER YOU GOT THE EATEN ENDING. PLAY AGAIN TO GET A DIFFERENT ENDING? TYPE Y OR N")
+    choice = input("Input your choice: ")
+    if choice == "y" or choice == "Y":
+        engStart()
+    elif choice == "n" or choice == "N":
+        print("Thanks for playing! Goodbye!")
+
+def engDimensionTravel():
+    print("You are excited to do this especially for such a big reward! The mad scientist hands you the device and tells you to pull the trigger. You pull the trigger and the mad scientist starts to laugh histarically as a portal appears and sucks everything in. You feel a weird sensation and you see a bright light. When the light fades, you find yourself in a different world. You look around and you see that you are in some sort of futuristic city. You see flying cars and robots walking around. You are amazed by this new world and you start to explore it.")
+    print("As you are exploring the city, your stomach starts to growl. You realize that you are hungry and you start to look for a place to eat. You see a plaza full of different resturants. Here are your top 2 choices: type a for McDonalds, type b for Burger King")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engMcDonalds()
+    elif choice == "b" or choice == "B":
+        engBurgerKing()
+
+def engDissapointing():
+    print("'Aww come on. I bet you think I am crazy or on some sort of drug. I am not, I swear! In fact, let me show you!' The mad scientist shoots his device and a portal shows up. Sucking everyone in. You try to hold on but you cannot grasp on anything! The marble table is just too damn slippery!")
+    print("As the mad scientist begins to get sucked in he looks scared and yells 'SHIT THIS WAS NOT SUPPOSED TO HAPPEN!")
+    print("You get sucked into the portal and you land in some sort of jungle. It appears as though you have landed in the Jurrassic era. You hear a loud roar and oh crap. Its a Tyranasouras rex! What do you do? Typr a to RUN. Type B to HIDE")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engRUN()
+    elif choice == "b" or choice == "B":
+        engHIDE()
+
+def engResponsibleEmployee():
+    print("'I am sorry, but I cannot give you free food and if you continue to be rude, I will have to ask you to leave the store' You say in a firm voice.")
+    print("The woman is very upset and screams at you for the manager. The manager comes out and asks what the problem is. You explain the situation to the manager and the manager asks her to leave politely. The women storms off with her kid and you get a notification on your phone that she left a 1 star review on the McDonalds page. You ignore this and continue on to the next customer.")
+    print("The next customer is a man with crazy hair and spiraly glasses. He is wearing a white lab coat and appears to be holding a strange device on his hand. He approaches the counter and says while heavily breating:")
+    print("'I *gasp* have finally done it! *gasp cough wheeze* I have created a device that allows interdimmensional travel! *gasp cough cough wheeze* I need you to test it and if you are successful, I will reward you with a $1000 tip!'")
+    print("Will you accept this offer? type a for HELL YEAHHH! Type b for HELLL NOO!")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engDimensionTravel()
+    elif choice == "b" or choice == "B":
+        engDissapointing()
+
+def engKindEmployee():
+    print("'Yes mam, I will make you a meal and your son can eat free' You say with a smile on your face.")
+    print("The woman smiles and thanks you for your kindness. She orders her meal and your friend on the stovetop cooks it for her. She and her son eat their meal and leaves.")
+    print("Soon, the boss comes in with a red face and tells you that you are getting a write up for giving away free food. You try to explain the situation but the boss doesn't care and gives you a write up. You get really upset and you are now determined to do better next time.")
+    print("The next customer is a man with crazy hair and spiraly glasses. He is wearing a white lab coat and appears to be holding a strange device on his hand. He approaches the counter and says while heavily breating:")
+    print("'I *gasp* have finally done it! *gasp cough wheeze* I have created a device that allows interdimmensional travel! *gasp cough cough wheeze* I need you to test it and if you are successful, I will reward you with a $1000 tip!'")
+    print("Will you accept this offer? type a for HELL YEAHHH! Type b for HELLL NOO!")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engDimensionTravel()
+    elif choice == "b" or choice == "B":
+        engDissapointing()
+
+def engStart():
+    print("Welcome to Pyland! What is your name?")
+    name = input("Input your name: ")
+    print(f"Hello, {name}! Let's start our adventure in Pyland!")
+    print("You are an average person living in a small town in the northern part of Chicago. You have a job at a local McDonalds.")
+    print("This morning is pretty usual for you. You wake up, eat breakfast, grab a cup of coffee and drive to work. When you arrive, you are greeted by your fellow coworkers and go to the counter to take peoples orders.")
+    print("Your first customer of the day is a woman who is very rude to you. She is yelling at you and demanding that you make her a meal and she is demanding that her son Timmy eats free. How do you respond? Type a for 'I am sorry, but I cannot give you free food and if you continue to be rude, I will have to ask you to leave the store' or type b for 'Yes mam, I will make you a meal and your son can eat free'")
+    choice = input("Input your choice: ")
+    if choice == "a" or choice == "A":
+        engResponsibleEmployee()
+    elif choice == "b" or choice == "B":
+        engKindEmployee()
+
+print("What language do you speak? Type a for English, b for French/Quelle langue parles-tu ? Tape a pour anglais, b pour français")
+language = input("Input your language/Entrez votre langue: ")
+if language == "a" or language == "A":
+    engStart()
+elif language == "b" or language == "B":
+    frStart()
