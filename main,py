@@ -1,3 +1,18 @@
+def frTrapTime():
+    print("")
+
+def frFightTrex():
+    print("")
+
+def frWeapons():
+    print("Toi et tes amis ramassez des pierres et fabriquez des lances et des arcs. Vous créez une armure en bois et vous préparez pour le combat ultime contre le dinosaure. Tu veux combattre le T-rex mais tu veux aussi installer des pièges et capturer le T-rex pour prendre l'avantage. Que fais-tu ?")
+    print("Tapez a pour trouver le T-rex et le tuer immédiatement, tapez b pour installer des pièges et attendre le T-rex")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frFightTrex()
+    elif choice == "b" or choice == "B":
+        frTrapTime()
+
 def frFindOthers():
     print("")
 
@@ -14,7 +29,12 @@ def frExplore():
     print("")
 
 def frShelter():
-    print("")
+    print("Toi et quelques amis parcourez la jungle à la recherche de matériaux pour construire un abri. Vous trouvez du bois et des feuilles et vous construisez un petit abri pour vous protéger des éléments. Vous êtes maintenant à l'abri de la pluie et du soleil, mais vous êtes toujours en danger à cause du T-rex. Que fais-tu ensuite ? Tape a pour explorer, tape b pour fabriquer des armes")
+    choice = input("Entrez votre choix: ")
+    if choice == "a" or choice == "A":
+        frExplore()
+    elif choice == "b" or choice == "B":
+        frWeapons()
 
 def frMcDonalds():
     print("Vous décidez de manger au McDonalds puisque vous y travaillez. Vous regardez le menu et vous êtes confus. Le menu est 1: dans une langue différente. 2: il a l'air... SAIN!?!?!?!")
@@ -129,7 +149,7 @@ def engLittleMac():
 def engExplore():
     print("")
 
-def engWeapons(): # Translate to french
+def engWeapons():
     print("You and your friends gather some stone and craft some spears and bows. You make some armor out of wood and prep for the ultimate fight with the dinosaur. You want to fight the T-rex but you also want to set up traps and capture the T-rex for an advantage. What do you do?")
     print("Type a to find the T rex and kill it immediately, type b to set up traps and wait for the T-rex")
     choice = input("Input your choice: ")
@@ -138,7 +158,7 @@ def engWeapons(): # Translate to french
     elif choice == "b" or choice == "B":
         engTrapTime()
 
-def engShelter(): # Translate to french
+def engShelter():
     print("You and some friends search the jungle for materials to build a shelter. You find some wood and some leaves and you build a small shelter to protect yourself from the elements. You are now safe from the rain and the sun but you are still in danger from the T-rex. What do you do next? Type a to explore, Type b to build some weapons")
     choice = input("Input your choice: ")
     if choice == "a" or choice == "A":
